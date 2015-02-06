@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/pre-dexed/debug/classes-cf2e620aeefcd5d5bff475a74dea20a6642dd0a8.jar" />
+    </item>
+    <item
+        jar="/home/sergio/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-c4b0e9ba0c1cea945334d64b22f7aca701b48039.jar" />
+    </item>
+    <item
+        jar="/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/pre-dexed/debug/classes-1c9ce40621e43b34261ba8cfb25352f7a3cac37b.jar" />
+    </item>
+    <item
+        jar="/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-824a9ca0b1b46d0e37b516df95b2c300505ddc4c.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,5 @@
+/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/classes/debug
+/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-c4b0e9ba0c1cea945334d64b22f7aca701b48039.jar
+/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-824a9ca0b1b46d0e37b516df95b2c300505ddc4c.jar
+/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/pre-dexed/debug/classes-cf2e620aeefcd5d5bff475a74dea20a6642dd0a8.jar
+/home/sergio/AndroidStudioProjects/Cadencia/app/build/intermediates/pre-dexed/debug/classes-1c9ce40621e43b34261ba8cfb25352f7a3cac37b.jar
