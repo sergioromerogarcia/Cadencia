@@ -1308,7 +1308,7 @@ containing a value of this type.
         public static final int test2=0x7f020039;
         public static final int test3=0x7f02003a;
         public static final int test4=0x7f02003b;
-        public static final int test5=0x7f02003c;
+        public static final int barra_superior =0x7f02003c;
     }
     public static final class id {
         public static final int action_bar=0x7f080031;
