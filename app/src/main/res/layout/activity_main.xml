@@ -8,16 +8,72 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
+        android:id="@+id/BarraSuperior"
         android:src="@drawable/barra_superior"
         android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/imageView2"
-        android:layout_alignStart="@+id/imageView2" />
+        android:layout_alignLeft="@+id/BarraInferior"
+        android:layout_alignStart="@+id/BarraInferior" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BarraSuperior"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/DatosFijos"
+        android:rowCount="3"
+        android:columnCount="4">
+
+        <TextView android:text="Plato"
+            android:id="@+id/TxtPlato"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/NumPlato" />
+
+        <TextView android:text="Piñon"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|left" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/NumPinon" />
+
+        <!-- Linea Separadora -->
+        <TextView android:text=""
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        </GridLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/DatosFijos"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/TablaResultados"
+        android:layout_above="@+id/BarraInferior"></TableLayout>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
+        android:id="@+id/BarraInferior"
         android:src="@drawable/barra_inferior"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"

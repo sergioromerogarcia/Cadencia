@@ -1299,18 +1299,19 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
-        public static final int barra=0x7f020033;
-        public static final int barra_inferior=0x7f020034;
-        public static final int cabecera=0x7f020035;
-        public static final int ic_launcher=0x7f020036;
-        public static final int logo_blanco=0x7f020037;
-        public static final int test=0x7f020038;
-        public static final int test2=0x7f020039;
-        public static final int test3=0x7f02003a;
-        public static final int test4=0x7f02003b;
-        public static final int barra_superior =0x7f02003c;
+        public static final int barra_inferior=0x7f020033;
+        public static final int barra_superior=0x7f020034;
+        public static final int ic_launcher=0x7f020035;
+        public static final int logo_blanco=0x7f020036;
     }
     public static final class id {
+        public static final int BarraInferior=0x7f080040;
+        public static final int BarraSuperior=0x7f08003f;
+        public static final int DatosFijos=0x7f080041;
+        public static final int ListaPinones=0x7f080044;
+        public static final int ListaPlatos=0x7f080043;
+        public static final int TablaResultados=0x7f080045;
+        public static final int TxtPlato=0x7f080042;
         public static final int action_bar=0x7f080031;
         public static final int action_bar_activity_content=0x7f080000;
         public static final int action_bar_container=0x7f080030;
@@ -1324,7 +1325,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f08002e;
         public static final int action_mode_bar_stub=0x7f08002d;
         public static final int action_mode_close_button=0x7f080020;
-        public static final int action_settings=0x7f080041;
+        public static final int action_settings=0x7f080046;
         public static final int activity_chooser_view_content=0x7f080021;
         public static final int always=0x7f080016;
         public static final int beginning=0x7f080013;
@@ -1344,8 +1345,6 @@ containing a value of this type.
         public static final int icon=0x7f080026;
         public static final int ifRoom=0x7f080018;
         public static final int image=0x7f080023;
-        public static final int imageView=0x7f08003f;
-        public static final int imageView2=0x7f080040;
         public static final int listMode=0x7f080009;
         public static final int list_item=0x7f080025;
         public static final int middle=0x7f080015;
