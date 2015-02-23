@@ -4,5 +4,14 @@
     <string name="app_name">Cadencia</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="txtVelodromo">Velódromo:</string>
+    <string name="TxtPlato">Plato:</string>
+    <string name="TxtPinon">Piñón:</string>
+    <string name="TxtRueda">Rueda:</string>
+    <string name="TxtMetros">Metros:</string>
+    <string name="TxtVueltas">Vueltas:</string>
+    <string name="TxtPrimVuelta">Primera:</string>
+    <string name="TxtTTotal">T.Total:</string>
+
 
 </resources>

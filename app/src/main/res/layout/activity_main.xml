@@ -6,61 +6,162 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/BarraSuperior"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/BarraSuperior"
         android:src="@drawable/barra_superior"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/BarraInferior"
         android:layout_alignStart="@+id/BarraInferior" />
 
     <GridLayout
+        android:layout_below="@+id/BarraSuperior"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/BarraSuperior"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/DatosFijos"
-        android:rowCount="3"
-        android:columnCount="4">
+        android:rowCount="4"
+        android:columnCount="10"
+        android:layout_alignRight="@+id/BarraSuperior"
+        android:layout_alignEnd="@+id/BarraSuperior">
 
-        <TextView android:text="Plato"
-            android:id="@+id/TxtPlato"
+        <TextView android:id="@+id/TxtVelo"
+            android:text="@string/txtVelodromo"
             android:layout_row="0"
             android:layout_column="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|left"/>
+            android:layout_gravity="center_vertical|bottom|left" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:id="@+id/MetrosVelo"
+            android:layout_width="45dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
             android:layout_column="1"
             android:inputType="number"
-            android:ems="10"
-            android:id="@+id/NumPlato" />
+            android:ems="10" />
 
-        <TextView android:text="Piñon"
+
+        <TextView android:id="@+id/TxtPlato"
+            android:text="@string/TxtPlato"
             android:layout_row="0"
             android:layout_column="2"
-            android:layout_gravity="center_vertical|left" />
-
-        <EditText
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|bottom|right" />
+
+
+        <EditText android:id="@+id/NumPlato"
+            android:layout_width="35dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
             android:layout_column="3"
             android:inputType="number"
-            android:ems="10"
-            android:id="@+id/NumPinon" />
+            android:ems="10"/>
+
+        <TextView android:id="@+id/TxtPinon"
+            android:text="@string/TxtPinon"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|bottom|right" />
+
+        <EditText android:id="@+id/NumPinon"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:inputType="number"
+            android:ems="10"/>
+
+
+        <TextView android:id="@+id/TxtRueda"
+            android:text="@string/TxtRueda"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center_vertical|bottom|right"
+            android:layout_height="wrap_content" />
+
+        <EditText android:id="@+id/DiamRueda"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:inputType="number"
+            android:ems="10" />
+
+        <TextView android:id="@+id/TxtMetros"
+            android:text="@string/TxtMetros"
+            android:layout_row="1"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_vertical|bottom|left"
+            android:layout_column="3" />
+
+        <TextView android:id="@+id/CalcAvance"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|left" />
+
+        <TextView android:id="@+id/TxtVueltas"
+            android:text="@string/TxtVueltas"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|bottom|right" />
+
+        <EditText
+            android:id="@+id/NumVueltas"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:inputType="number"
+            android:ems="10" />
+
+        <TextView android:id="@+id/PrimVueltas"
+            android:text="@string/TxtPrimVuelta"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|bottom|right" />
+
+        <EditText
+            android:id="@+id/NumPrimVueltas"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:inputType="number"
+            android:ems="10" />
+
+        <TextView android:id="@+id/TTotal"
+            android:text="@string/TxtTTotal"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|bottom|right" />
+
+        <EditText
+            android:id="@+id/NumTTotal"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="5"
+            android:inputType="number"
+            android:ems="10" />
 
         <!-- Linea Separadora -->
         <TextView android:text=""
-            android:layout_row="2"
+            android:layout_row="3"
             android:layout_column="0" />
 
-        </GridLayout>
+
+
+    </GridLayout>
 
     <TableLayout
         android:layout_width="fill_parent"
